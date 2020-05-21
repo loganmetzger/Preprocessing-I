@@ -79,7 +79,7 @@ header {
 	padding: 3% 0;
 	background-color: @medium;
 	color: @yellow;
-}
+
 	h1 {
 		font-family: @font;
 		font-size: 4rem;
@@ -91,3 +91,24 @@ header {
 }
 
 // Top Content
+.top-content {
+	display: flex;
+	height: 300px;
+
+	nav {
+		.custom(space-around, center);
+		flex-direction: column;
+		width: 30%;
+		background-color: @slate;
+
+		a {
+			text-decoration: none;
+			font-family: @font;
+			color: @light;
+		}
+	}
+}
+
+.introduction {
+	
+}
