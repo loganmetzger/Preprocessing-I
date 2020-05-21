@@ -59,6 +59,7 @@ html, body {
 
 // My Styling Starts here
 
+// Variable and Mixins
 @font: 'Ubuntu';
 @dark: #423E37;
 @yellow: #E3B23C;
@@ -71,3 +72,22 @@ html, body {
 	justify-content: @justify;
 	align-items: @align;
 }
+
+// Header 
+header {
+	.custom(space-evenly, center);
+	padding: 3% 0;
+	background-color: @medium;
+	color: @yellow;
+}
+	h1 {
+		font-family: @font;
+		font-size: 4rem;
+	}
+	h2 {
+		font-family: @font;
+		font-size: 2rem;
+	}
+}
+
+// Top Content

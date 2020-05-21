@@ -134,3 +134,19 @@ html,
 body {
   height: 100%;
 }
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3% 0;
+  background-color: #6E675F;
+  color: #E3B23C;
+}
+h1 {
+  font-family: 'Ubuntu';
+  font-size: 4rem;
+}
+h2 {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+}
