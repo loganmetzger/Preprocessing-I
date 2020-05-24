@@ -140,12 +140,20 @@ header {
 	p {
 		font-family: @font;
 		padding: 2%;
+		@media (max-width: 500px) {
+			line-height: 1.5;
+			text-align: center;
+			padding-bottom: 30px;
+		}
 	}
 
 	h3 {
 		font-family: @font;
 		font-size: 1.3rem;
 		padding-bottom: 2%;
+		@media (max-width: 500px) {
+			padding-bottom: 30px;
+		}
 	}
 
 	.quotes {
@@ -161,7 +169,7 @@ header {
 .skills {
 	.custom(flex-start, center);
 	@media (max-width: 500px) {
-		margin-top: 200px;
+		margin-top: 300px;
 	}
 
 	h2 {
@@ -170,7 +178,7 @@ header {
 		font-family: @font;
 		font-size: 1.7rem;
 		text-align: center;
-		padding: 100px 0;
+		padding: 130px 0;
 	}
 
 	ul {
@@ -178,6 +186,9 @@ header {
 		flex-wrap: wrap;
 		background-color: @slate;
 		height: 300px;
+		@media (max-width: 500px) {
+			width: 70%;
+		}
 		li {
 			font-family: @font;
 			padding: 1.3%
@@ -192,10 +203,10 @@ header {
 		font-size: 1.7rem;
 		text-align: center;
 		padding: 50px;
-	}
-
-	.work-boxes {
-		
+		@media (max-width: 500px) {
+			padding: 20px;
+			padding-top: 30px;
+		} 
 	}
 }
 
@@ -203,11 +214,17 @@ header {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
+	@media (max-width: 500px) {
+		flex-direction: column;
+	}
 
 	h3 {
 		font-family: @font;
 		font-size: 1.2rem;
 		padding: 20px;
+		@media (max-width: 500px) {
+			text-align: center;
+		}
 	}
 
 	img {
@@ -220,6 +237,9 @@ header {
 			font-family: @font;
 			list-style-type: circle;
 			padding: 10px;
+			@media (max-width: 500px) {
+				text-align: center;
+			}
 		}
 	}
 }
@@ -228,11 +248,17 @@ header {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
+	@media (max-width: 500px) {
+		flex-direction: column;
+	}
 
 	h3 {
 		font-family: @font;
 		font-size: 1.2rem;
 		padding: 20px;
+		@media (max-width: 500px) {
+			text-align: center;
+		}
 	}
 
 	img {
@@ -245,6 +271,12 @@ header {
 			font-family: @font;
 			list-style-type: circle;
 			padding: 10px;
+			@media (max-width: 500px) {
+				text-align: center;
+			}
+		}
+		@media (max-width: 500px) {
+			padding-bottom: 30px;
 		}
 	}
 }
@@ -254,11 +286,18 @@ header {
 	justify-content: space-around;
 	width: 100%;
 	padding-bottom: 10px;
+	@media (max-width: 500px) {
+		flex-direction: column;
+		padding-bottom: 0;
+	}
 
 	h3 {
 		font-family: @font;
 		font-size: 1.2rem;
 		padding: 20px;
+		@media (max-width: 500px) {
+			text-align: center;
+		}
 	}
 
 	img {
@@ -271,6 +310,9 @@ header {
 			font-family: @font;
 			list-style-type: circle;
 			padding: 10px;
+		}
+		@media (max-width: 500px) {
+			text-align: center;
 		}
 	}
 }
