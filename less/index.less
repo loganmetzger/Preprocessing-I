@@ -79,10 +79,17 @@ header {
 	padding: 3% 0;
 	background-color: @medium;
 	color: @yellow;
+		@media (max-width: 500px) {
+			flex-direction: column;
+		}
 
 	h1 {
 		font-family: @font;
 		font-size: 4rem;
+		@media (max-width: 500px) {
+			padding-bottom: 10px;
+		}
+
 	}
 	h2 {
 		font-family: @font;
@@ -94,17 +101,27 @@ header {
 .top-content {
 	display: flex;
 	height: 300px;
+	@media (max-width: 500px) {
+		flex-direction: column;
+	}
 
 	nav {
 		.custom(space-around, center);
 		flex-direction: column;
 		width: 30%;
 		background-color: @slate;
+		@media (max-width: 500px) {
+			width: 100%;
+		}
 
 		a {
 			text-decoration: none;
 			font-family: @font;
 			color: @light;
+			@media (max-width: 500px) {
+				padding: 8px;
+				font-size: 1.7rem;
+			}
 		}
 	}
 }
