@@ -222,6 +222,11 @@ header h2 {
   justify-content: flex-start;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .skills {
+    margin-top: 200px;
+  }
+}
 .skills h2 {
   height: 300px;
   width: 30%;
