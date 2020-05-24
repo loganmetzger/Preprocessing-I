@@ -220,3 +220,60 @@ header h2 {
   text-align: center;
   padding: 50px;
 }
+.job1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.job1 h3 {
+  font-family: 'Ubuntu';
+  font-size: 1.2rem;
+  padding: 20px;
+}
+.job1 img {
+  width: ;
+  height: 400px;
+}
+.job1 ul li {
+  font-family: 'Ubuntu';
+  list-style-type: circle;
+  padding: 10px;
+}
+.job2 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.job2 h3 {
+  font-family: 'Ubuntu';
+  font-size: 1.2rem;
+  padding: 20px;
+}
+.job2 img {
+  width: ;
+  height: 400px;
+}
+.job2 ul li {
+  font-family: 'Ubuntu';
+  list-style-type: circle;
+  padding: 10px;
+}
+.job3 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.job3 h3 {
+  font-family: 'Ubuntu';
+  font-size: 1.2rem;
+  padding: 20px;
+}
+.job3 img {
+  width: ;
+  height: 400px;
+}
+.job3 ul li {
+  font-family: 'Ubuntu';
+  list-style-type: circle;
+  padding: 10px;
+}
